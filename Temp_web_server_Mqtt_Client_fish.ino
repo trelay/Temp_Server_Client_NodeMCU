@@ -15,7 +15,7 @@ unsigned long rolltime_L = millis() + delaytime_L;
 
 //Common setting for both client and server.
 const char* ssid = "Trelay";
-const char* password = "KW83ca<M";
+const char* password = "mypassword";
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature DS18B20(&oneWire);
 char local_ip[16];
